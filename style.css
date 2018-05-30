@@ -1,0 +1,215 @@
+/* Html */
+/*
+html {
+background-color: black;
+}
+*/
+
+.content {
+background-color: white;
+}
+
+header {
+background-color: black;
+}
+
+body {
+margin: 0
+}
+
+/* Home Page */
+
+/* Navigation */
+
+.column {
+display: block;
+border: 1em solid black;
+background-color: black;
+}
+
+.nav-menu {
+  text-align: center;
+}
+
+.nav-menu li {
+    padding: 0 1em;
+  text-align: center;
+  display: inline;
+  margin: 0 0.5em;
+color: white;
+} 
+
+li {
+list-style-type: none;
+}
+
+/* Links */
+
+a {
+text-decoration: none;
+}
+
+
+a:link {
+color: white;
+}
+
+a:visited {
+color: white;
+}
+
+a:hover {
+color: lightblue;
+}
+
+a:active {
+color: orange;
+}
+
+a:focus {
+color:orange
+}
+
+
+/* Header */
+
+header {
+text-align: center;
+   color: white;
+  text-shadow: 0 2px 0 black;
+} 
+
+/* Background Image */
+
+.background-image {
+padding: 5% 5%;
+background: url("images/kansas_city_at_sundown_by_tthealer.jpg");
+background-repeat: no-repeat;
+background-position: center;
+backface-visibility: visible;
+background-size: 100% 200%;
+border-radius: 50px 50px;
+}
+
+.backdrop {
+    background: rgba(0,0,0,0.5);
+    padding: 2rem;
+  border-radius: 50px 50px;
+}
+/* Porfolio Page */
+
+/* Porfolio Navigation */
+
+
+/* Porfolio Header */
+.portfolio-header {
+text-align: center;
+  
+}
+
+/* Resume Page */
+
+/* Resume Header */
+
+.resume-header {
+text-align: center;
+  margin-bottom: 1em;
+}
+
+
+#hello {
+font-size: 2em;
+}
+
+#name-header {
+font-size: 3em;
+  color: #e3946f;
+/*  margin-bottom: 2px;*/
+}
+
+#skills {
+ font-size: 1.5em; 
+}
+
+.portfolio-header {
+font-size: 3em;
+  color: #e3946f;
+  margin-bottom: 2px;
+}
+
+.resume-header {
+font-size: 3em;
+  color: #e3946f;
+  margin-bottom: 2px;
+}
+
+.my-header {
+font-size: 2em;
+}
+/* Paragraph Content */
+
+.paragraph-content {
+text-align: center
+}
+
+.bold-title {
+font-weight: bolder;
+  font-size: 1.50em;
+margin: 1em;
+  color: #e3946f;
+  text-decoration: underline;
+}
+
+.index-content {
+margin: 1.15em;
+}
+
+/*Footer*/
+
+.fa {
+  padding: .5em;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 3px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  size: 1em;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  size: 1em;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  font-size: 1em;
+}
+
+
+.portfolio-content {
+padding: 2rem;
+}
+
+.google {
+width: 75%;
+  border: 1px solid gray;
+  border-radius: 1px 1px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
